@@ -1,0 +1,22 @@
+.dropdown-container {
+  width: 120px;
+  position: relative; }
+  .dropdown-container .dropdown-toggle {
+    width: 120px;
+    height: 30px;
+    padding: 5px 10px;
+    cursor: pointer; }
+  .dropdown-container .dropdown-menu {
+    width: 100%;
+    position: absolute;
+    top: 32px;
+    background: #fff;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box; }
+    .dropdown-container .dropdown-menu.hidden {
+      display: none; }
+    .dropdown-container .dropdown-menu li {
+      margin-bottom: 5px; }

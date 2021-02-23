@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+body {
+  padding: 20px; }
+
+.web-components {
+  margin-bottom: 20px; }
+  .web-components .tabs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; }
+    .web-components .tabs .tab {
+      padding: 5px 10px;
+      cursor: pointer; }
+      .web-components .tabs .tab:first-child {
+        margin-right: 20px; }
+  .web-components .hidden {
+    display: none; }
+
+#user-list {
+  margin-bottom: 20px; }
+
+.fetch-data {
+  margin-bottom: 20px; }
+  .fetch-data button {
+    padding: 5px 10px;
+    cursor: pointer; }

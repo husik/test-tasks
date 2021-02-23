@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Task</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="web-components">
+    <div class="tabs">
+        <button id="dropdown" class="tab">Dropdown</button>
+        <button id="chart" class="tab">Chart</button>
+    </div>
+    <div class="dropdown">
+        <app-dropdown></app-dropdown>
+    </div>
+    <div class="chart hidden">
+        <app-chart></app-chart>
+    </div>
+</div>
+
+<div id="user-list">
+    <ul class="list"></ul>
+</div>
+
+<div class="fetch-data">
+    <button>Fetch</button>
+</div>
+
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"
+        integrity="sha512-/seDHxVfh1NvFUscAj8GsHQVZJvr2jjAoYsNL7As2FCaFHUHYIarl3sRCvVlFgyouVNiRgHIebyLKjpgd1SLDw=="
+        crossorigin="anonymous"></script>
+<script src="scripts/main.mjs"></script>
+<script src="components/dropdown/dropdown.mjs"></script>
+<script src="components/chart/chart.mjs"></script>
+
+</body>
+</html>
