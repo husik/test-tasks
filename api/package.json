@@ -7,6 +7,7 @@
         "build": "babel src --out-dir dist",
         "build:watch": "watch 'npm run build' ./src",
         "start": "supervisor dist/server.js",
+        "sqlite": "ts-node src/models/user.ts",
         "test": "node dist/tests/simple.test.js"
     },
     "keywords": [],
@@ -18,7 +19,9 @@
         "@babel/node": "^7.13.0",
         "@babel/preset-env": "^7.13.5",
         "@babel/preset-stage-0": "^7.8.3",
+        "supervisor": "^0.12.0",
         "tape": "^5.2.0",
+        "ts-node": "^9.1.1",
         "watch": "^1.0.2"
     },
     "dependencies": {

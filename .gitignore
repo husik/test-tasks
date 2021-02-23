@@ -1,5 +1,6 @@
 .idea
 api/node_modules/
+api/dist/
 api/package-lock.json
 app/node_modules/
 app/package-lock.json
